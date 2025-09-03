@@ -7,6 +7,21 @@
 </head>
 <body>
     <h1>AI Learning Platform</h1>
+
+    <div id="user-management">
+        <form id="login-form">
+            <label for="username-input">Enter Username to Save/Load Progress:</label>
+            <input type="text" id="username-input" name="username" size="20" />
+            <button type="submit">Login</button>
+        </form>
+        <div id="user-status" hidden>
+            <strong id="welcome-message"></strong>
+            <button id="logout-button">Logout</button>
+        </div>
+    </div>
+
+    <hr>
+
     <form id="topic-form">
         <label for="topic-input">Enter a topic to learn:</label>
         <input type="text" id="topic-input" name="topic" size="40" />
